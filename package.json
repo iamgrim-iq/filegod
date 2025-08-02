@@ -1,0 +1,23 @@
+{
+  "name": "filegod",
+  "version": "0.1.0",
+  "description": "🔥 Powerful CLI file management tool with sorting, search, analysis and metadata extraction",
+  "main": "filegod.js",
+  "bin": {
+    "filegod": "./filegod.js",
+    "filegod-macos": "./filegod_macos.js"
+  },
+  "scripts": {
+    "start": "node filegod.js",
+    "start:macos": "node filegod_macos.js"
+  },
+  "keywords": [
+    "cli", "file-manager", "sorting", "search", 
+    "metadata", "exif", "mp3", "analysis"
+  ],
+  "author": "YourName",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
